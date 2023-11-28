@@ -14,11 +14,19 @@ dashboardPage(
                windowTitle = "Saudi Arabia Population",
                tabPanel("عربي",
                         fluidRow(
-                          column(width = 12,plotlyOutput("plot1")))
+                          column(width = 12,plotlyOutput("plot1"))),
+                        fluidRow(
+                          column(width = 12,
+                                 p("بسم الله الرحمن الرحيم"))
+                        )
                ),
                tabPanel("English",
                                fluidRow(
-                                 column(width = 12,plotlyOutput("plot2")))
+                                 column(width = 12,plotlyOutput("plot2"))),
+                        fluidRow(
+                          column(width = 12,
+                                 p("بسم الله الرحمن الرحيم"))
+                        )
                         )
                )
     )
