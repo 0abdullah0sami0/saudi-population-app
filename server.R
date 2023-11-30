@@ -16,7 +16,7 @@ shinyServer(function(input,output,session){
       scale_x_date(date_breaks = "1 year",date_labels = "%Y") +
       geom_hline(yintercept = 13500000, linetype = "dashed", color = "darkgreen") +
       geom_hline(yintercept = 12500000, linetype = "dashed", color = "red") +
-      theme(plot.margin = margin(0.5,0.5,0.5,0.5,"cm"),plot.title = element_text(size = 12))
+      theme(plot.margin = margin(1,1,1,1,"cm"),plot.title = element_text(size = 12))
     
     ggplotly(Plot,tooltip = c("x", "y")) %>%
       layout(title = list(text = paste0("Evolution of Saudi Arabia's population by Nationality \n between 2010 and 2022",
