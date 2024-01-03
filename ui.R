@@ -16,8 +16,8 @@ dashboardPage(
                         fluidRow(
                           column(width = 8, align = "center", offset = 2 , plotlyOutput("plot1"))),
                         fluidRow(
-                          column(width = 12,
-                                 p("بسم الله الرحمن الرحيم"))
+                          column(width = 12, align = "center",
+                                 p("من عام 2010 حتى 2022  كان متوسط  نمو السعوديين 2.46% بينما كان نمو غير السعوديين 2.73% والله الموفق"))
                         ),
                         hr(),
                         fluidRow(column(width = 2,align = "right", offset = 10,
@@ -29,8 +29,8 @@ dashboardPage(
                                fluidRow(
                                  column(width = 8, align = "center", offset = 2 , plotlyOutput("plot2"))),
                         fluidRow(
-                          column(width = 12,
-                                 p("بسم الله الرحمن الرحيم"))
+                          column(width = 12, align = "center",
+                                 p("Between 2010 and 2022, the average annual growth of Saoudi population in Saoudi Arabia was 2.46%, while the average annual growth of Non-Saoudi population in Saoudi Arabia was 2.73%."))
                         ),
                         hr(),
                         fluidRow(column(width = 2,
